@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Happy Birthday Juvy 💖</title>
+<title>happy birthday baby 💕</title>
 
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -191,12 +191,12 @@ button{
 <!-- LOADER -->
 <div id="loader">
   <h1>Loading Memories...</h1>
-  <div class="loader-text">For Juvy 💖</div>
+  <div class="loader-text">for my baby 💕</div>
 </div>
 
 <!-- HERO -->
 <div class="hero">
-  <h1>Happy 19th Birthday, Juvy 💖</h1>
+  <h1>happy 19th birthday, baby 💕</h1>
   <p>Made with love by Elie</p>
 </div>
 
@@ -220,17 +220,6 @@ button{
     <img src="https://placekitten.com/301/300" onclick="openImg(this.src)">
     <img src="https://placekitten.com/302/300" onclick="openImg(this.src)">
     <img src="https://placekitten.com/303/300" onclick="openImg(this.src)">
-  </div>
-</section>
-
-<!-- TIMELINE -->
-<section>
-  <h2>Memory Timeline</h2>
-  <div class="timeline">
-    <div class="event">💖 First time we talked</div>
-    <div class="event">🌙 Late night conversations</div>
-    <div class="event">😂 Random laughs together</div>
-    <div class="event">💌 Every “I miss you” moment</div>
   </div>
 </section>
 
@@ -276,7 +265,7 @@ window.onload = () => {
 setInterval(()=>{
   let heart = document.createElement("div");
   heart.classList.add("heart");
-  heart.innerHTML = "💖";
+  heart.innerHTML = "💕";
   heart.style.left = Math.random()*100+"vw";
   heart.style.fontSize = Math.random()*20+10+"px";
   document.body.appendChild(heart);
